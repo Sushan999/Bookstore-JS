@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+section#controls {
+    text-align: center;
+    margin: 20px 0;
+}
+
+input[type=text], select {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#book-list{
+    background-color: #e3e3e3;
+    height: 60vh;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+section#book-list {
+    margin: 20px auto;
+    width: 80%;
+}
+
+section#book-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul#books {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#books li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+ul#books li.selected {
+    background-color: #f18533;
+}
+
+ul#books li.favorite {
+    background-color: #265af7;
+}
+
+ul#books li:hover {
+    background-color: #50d61f;
+}
